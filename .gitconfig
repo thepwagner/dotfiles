@@ -1,0 +1,6 @@
+[user]
+	email = pwagner@pebble.com
+	name = Peter Wagner
+
+[core]
+	excludesfile = ~/.gitignore_global
