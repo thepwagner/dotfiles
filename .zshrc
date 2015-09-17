@@ -26,3 +26,7 @@ ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%}!"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[green]%}?"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
+if which docker-machine >/dev/null 2>&1; then
+	eval $(docker-machine env docker-vm)
+fi
+
