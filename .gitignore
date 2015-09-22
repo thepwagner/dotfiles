@@ -21,6 +21,7 @@
 .hgignore_global
 .htoprc
 .lesshst
+.python_history
 .rnd
 .sqlite*
 .v8*
