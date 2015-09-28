@@ -2,9 +2,12 @@
 .aws/
 .docker/
 .fleetctl/
+.gradle/
 .gnupg/
 .IntelliJIdea14/
+.m2/
 .neoman/
+.node-gyp/
 .npm/
 .openvpn/
 .oracle_jre_usage/
@@ -22,6 +25,8 @@
 .htoprc
 .lesshst
 .python_history
+.node_repl_history
+.NERDTreeBookmarks
 .rnd
 .sqlite*
 .v8*

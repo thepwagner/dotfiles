@@ -4,6 +4,8 @@ ZSH_THEME="gentoo"
 case `uname` in
 	Darwin)
 		plugins=(brew docker docker-compose git)
+		export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
+		export ANDROID_HOME=/usr/local/opt/android-sdk
 		;;
 	*)
 		plugins=(docker docker-compose git)
