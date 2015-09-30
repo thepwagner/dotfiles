@@ -32,3 +32,5 @@ if which docker-machine >/dev/null 2>&1; then
 	eval $(docker-machine env docker-vm)
 fi
 
+export EDITOR=/usr/bin/vim
+
