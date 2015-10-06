@@ -11,6 +11,8 @@ case `uname` in
 		plugins=(docker docker-compose git)
 		;;
 esac
+
+DISABLE_AUTO_UPDATE="true"
 source $ZSH/oh-my-zsh.sh
 
 
@@ -33,4 +35,5 @@ if which docker-machine >/dev/null 2>&1; then
 fi
 
 export EDITOR=/usr/bin/vim
+export GOPATH=${HOME}/go
 
