@@ -18,6 +18,7 @@
 .subversion/
 .Trash/
 .vagrant.d/
+.vim/.netrwhist
 .yubioath/
 .arcrc
 .bash_history
@@ -36,6 +37,7 @@
 .zcomp*
 .zsh_history
 .zsh-update
+bin/
 Applications/
 Desktop/
 Documents/
@@ -49,5 +51,6 @@ git/
 go/
 tmp/
 oss/
+pebble-test/
 venv/
 VirtualBox*/
