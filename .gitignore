@@ -1,5 +1,6 @@
 .android/
 .aws/
+.config/
 .docker/
 .fleetctl/
 .gradle/
@@ -31,6 +32,7 @@
 .node_repl_history
 .NERDTreeBookmarks
 .rnd
+.sh_history
 .sqlite*
 .v8*
 .viminfo

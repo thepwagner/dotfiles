@@ -16,7 +16,7 @@ DISABLE_AUTO_UPDATE="true"
 source $ZSH/oh-my-zsh.sh
 
 
-export PATH="${HOME}/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="${HOME}/bin:${HOME}/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 function collapse_pwd {
   echo $(pwd | sed -e "s,^$HOME,~,")
