@@ -3,9 +3,11 @@
 .config/
 .docker/
 .fleetctl/
+.gem/
 .gradle/
 .gnupg/
 .IntelliJIdea14/
+.IntelliJIdea15/
 .m2/
 .neoman/
 .node-gyp/
@@ -15,6 +17,7 @@
 .otto.d/
 .pip/
 .pylint*/
+.rbenv/
 .ssh/
 .subversion/
 .Trash/
@@ -24,10 +27,13 @@
 .arcrc
 .bash_history
 .CFUserTextEncoding
+.dbshell
 .gpg*
 .hgignore_global
 .htoprc
 .lesshst
+.mongorc.js
+.psql_history
 .python_history
 .node_repl_history
 .NERDTreeBookmarks
