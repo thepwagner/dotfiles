@@ -19,7 +19,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH="${HOME}/bin:${HOME}/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 function collapse_pwd {
-  echo $(pwd | sed -e "s,^$HOME,~,")
+	echo $(pwd | sed -e "s,^$HOME,~,")
 }
 
 PROMPT='%{$fg[green]%}%n@%m %{$fg_bold[blue]%}$(collapse_pwd)%{$reset_color%}$(hg_prompt_info)$(git_prompt_info) %{$fg_bold[blue]%}\$ %{$reset_color%}'
