@@ -58,6 +58,7 @@
 .zcomp*
 .zsh-update
 .zsh_history
+.zhistory
 Applications/
 Desktop/
 Documents/
