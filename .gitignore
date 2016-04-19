@@ -50,6 +50,7 @@
 .ssh/
 .subversion/
 .terraform.d/
+.tox/
 .v8*
 .vagrant.d/
 .vim/.netrwhist
