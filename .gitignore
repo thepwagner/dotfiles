@@ -21,6 +21,7 @@
 .gpg*
 .gradle/
 .hgignore_global
+.homebrew_analytics_user_uuid
 .htoprc
 .lesshst
 .local/
