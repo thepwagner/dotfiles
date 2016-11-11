@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".zgen"]
+	path = .zgen
+	url = https://github.com/tarjoilija/zgen
