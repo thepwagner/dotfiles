@@ -4,17 +4,14 @@ if [[ ! "$PATH" == */usr/local/opt/fzf/bin* ]]; then
   export PATH="$PATH:/usr/local/opt/fzf/bin"
 fi
 
-# Man path
-# --------
-if [[ ! "$MANPATH" == */usr/local/opt/fzf/man* && -d "/usr/local/opt/fzf/man" ]]; then
-  export MANPATH="$MANPATH:/usr/local/opt/fzf/man"
+FZF_DIR="/usr/local/opt/fzf/shell"
+if [ -d "/usr/share/fzf" ]; then
+	FZF_DIR="/usr/share/fzf"
 fi
 
-# Auto-completion
-# ---------------
-[[ $- == *i* ]] && source "/usr/local/opt/fzf/shell/completion.zsh" 2> /dev/null
+[[ $- == *i* ]] && source "${FZF_DIR}/completion.zsh" 2> /dev/null
 
 # Key bindings
 # ------------
-[ -f "/usr/local/opt/fzf/shell/key-bindings.zsh" ] && source "/usr/local/opt/fzf/shell/key-bindings.zsh"
+[ -f "${FZF_DIR}/key-bindings.zsh" ] && source "${FZF_DIR}/key-bindings.zsh"
 
