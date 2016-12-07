@@ -16,6 +16,7 @@
 /.cups/
 /.dbshell
 /.docker/
+/.dropbox/
 /.fleetctl/
 /.gem/
 /.github
@@ -54,6 +55,7 @@
 /.s3cfg
 /.sbt/
 /.sh_history
+/.skipbuddy
 /.spinnaker/
 /.sqlite*
 /.ssh/
@@ -73,6 +75,7 @@
 /Desktop/
 /Documents/
 /Downloads/
+/Dropbox*/
 /Library/
 /Movies/
 /Music/
