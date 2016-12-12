@@ -45,3 +45,6 @@ alias vi=/usr/bin/vim
 
 export EDITOR=/usr/bin/vim
 export LC_CTYPE=en_CA.utf-8
+
+source .zprofile
+

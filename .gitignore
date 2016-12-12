@@ -71,6 +71,7 @@
 /.zsh-update
 /.zsh_history
 /.zhistory
+/.zprofile
 /Applications/
 /Desktop/
 /Documents/
