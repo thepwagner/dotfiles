@@ -9,6 +9,7 @@ brew update
 # Shell
 brew install fzf
 brew install jq
+brew install tmux
 brew install zsh
 
 # Utils
