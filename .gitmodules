@@ -4,3 +4,9 @@
 [submodule ".zgen"]
 	path = .zgen
 	url = https://github.com/tarjoilija/zgen
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule ".vim/bundle/jsonnet"]
+	path = .vim/bundle/jsonnet
+	url = https://github.com/google/vim-jsonnet
