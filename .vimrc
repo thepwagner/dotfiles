@@ -25,3 +25,5 @@ set statusline=%f\ %2*%m\ %1*%h%r%=[%{&encoding}\ %{&fileformat}\ %{strlen(&ft)?
 nmap <F8> :TagbarToggle<CR>
 map <F2> :NERDTreeToggle<CR>
 
+au Filetype jsonnet setl et ts=2 sw=2
+

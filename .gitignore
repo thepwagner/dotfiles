@@ -7,9 +7,11 @@
 /.archey3.cfg
 /.archey-ip
 /.arcrc
+/.aurora/
 /.autoenv_authorized
 /.aws/
 /.bash_history
+/.bash_sessions/
 /.cache/
 /.cassandra/
 /.config/
@@ -20,6 +22,7 @@
 /.fleetctl/
 /.gem/
 /.github
+/.glide/
 /.gnupg/
 /.gpg*
 /.gradle/
@@ -34,6 +37,7 @@
 /.m2/
 /.mitmproxy/
 /.mongorc.js
+/.mysql_history
 /.neoman/
 /.node-gyp/
 /.node_repl_history
@@ -44,6 +48,7 @@
 /.otto.d/
 /.packer.d/
 /.password-store/
+/.pex/
 /.pip/
 /.pow
 /.psql_history
