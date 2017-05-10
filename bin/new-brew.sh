@@ -2,6 +2,7 @@
 
 # Install brew
 if [ ! -f /usr/local/bin/brew ]; then
+	sudo xcodebuild -license
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
@@ -9,21 +10,25 @@ brew update
 
 # Shell
 brew install fzf
+brew cask install iterm2
 brew install jq
 brew install tmux
 brew install watch
 brew install zsh
 
 # Utils
-brew install awscli
-brew install Caskroom/cask/docker
+brew cask install docker
 brew install git
-brew install Caskroom/cask/google-chrome
+brew cask install google-chrome
+brew cask install google-drive
 brew install htop-osx
 brew install macvim
 brew install openssh
 brew install pass
-brew install Caskroom/cask/sublime-text
+brew cask install sublime-text
+
+# Cloud
+brew install awscli
 brew install terraform
 
 # Python
@@ -34,15 +39,21 @@ brew install python3
 brew install node@6
 
 # Java
-brew install Caskroom/cask/java
-brew install Caskroom/cask/jd-gui
 brew install gradle
-brew install Caskroom/cask/visualvm
+brew cask install intellij-idea
+brew cask install java
+brew cask install jd-gui
+brew cask install visualvm
 
 # Vagrant
-brew install Caskroom/cask/vagrant
-brew install Caskroom/cask/virtualbox
+brew cask install vagrant
+brew cask install virtualbox
 
 # Networking
-brew install Caskroom/cask/viscosity
+brew cask install viscosity
+
+# Lulz
+brew cask install slack
+brew cask install spotify
+brew cask install vlc
 
