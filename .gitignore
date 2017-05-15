@@ -35,6 +35,7 @@
 /.lesshst
 /.local/
 /.m2/
+/.meteor/
 /.mitmproxy/
 /.mongorc.js
 /.mysql_history

@@ -1,4 +1,4 @@
-export PATH="/usr/local/bin/:${PATH}:${HOME}/bin"
+export PATH="/usr/local/bin/:${PATH}:${HOME}/bin:${HOME}/go/bin"
 
 SAVEHIST=10000
 
