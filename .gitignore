@@ -10,6 +10,7 @@
 /.aurora/
 /.autoenv_authorized
 /.aws/
+/.babel-cache/
 /.bash_history
 /.bash_sessions/
 /.cache/
@@ -17,8 +18,10 @@
 /.config/
 /.cups/
 /.dbshell
+/.dlv/
 /.docker/
 /.dropbox/
+/.electron/
 /.fleetctl/
 /.gem/
 /.github
@@ -32,10 +35,14 @@
 /.htoprc
 /.idea-build
 /.ivy2/
+/.kube/
 /.lesshst
 /.local/
 /.m2/
+/.mdg*
 /.meteor/
+/.meteorsession
+/.minikube/
 /.mitmproxy/
 /.mongorc.js
 /.mysql_history
@@ -72,6 +79,8 @@
 /.vagrant.d/
 /.vim/.netrwhist
 /.viminfo
+/.yarnrc
+/.yjp
 /.yubioath/
 /.zcomp*
 /.zsh-update
