@@ -1,6 +1,7 @@
 /.CFUserTextEncoding
 /.IntelliJIdea14/
 /.IntelliJIdea15/
+/.IntelliJIdea2017.2/
 /.NERDTreeBookmarks
 /.Trash/
 /.android/
@@ -15,17 +16,23 @@
 /.bash_sessions/
 /.cache/
 /.cassandra/
-/.config/
+/.config/chromium/
+/.config/configstore/
+/.config/dconf/
+/.config/menus/
+/.config/pulse/
 /.cups/
 /.dbshell
 /.dlv/
 /.docker/
 /.dropbox/
 /.electron/
+/.esd_auth
 /.fleetctl/
 /.gem/
 /.github
 /.glide/
+/.gnome/
 /.gnupg/
 /.gpg*
 /.gradle/
@@ -35,6 +42,7 @@
 /.htoprc
 /.idea-build
 /.ivy2/
+/.java/
 /.kube/
 /.lesshst
 /.local/
@@ -51,6 +59,8 @@
 /.node_repl_history
 /.npm/
 /.npmrc
+/.nv/
+/.nvidia-settings-rc
 /.openvpn/
 /.oracle_jre_usage/
 /.otto.d/
@@ -58,6 +68,7 @@
 /.password-store/
 /.pex/
 /.pip/
+/.pki/
 /.pow
 /.psql_history
 /.pylint*/
@@ -82,6 +93,7 @@
 /.yarnrc
 /.yjp
 /.yubioath/
+/.Xauthority
 /.zcomp*
 /.zsh-update
 /.zsh_history
