@@ -2,8 +2,6 @@
 font = Inconsolata 16
 
 [colors]
-
-[colors]
 foreground      = #c7c7c7
 foreground_bold = #c7c7c7
 cursor          = #c7c7c7

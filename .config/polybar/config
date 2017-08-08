@@ -1,0 +1,99 @@
+[bar/bar1]
+monitor = DP-4
+width = 100%
+height = 30
+font-0 = Inconsolata:fontformat=truetype:size=16;3
+font-1 = FontAwesome:fontformat=truetype:size=16;0
+
+modules-left= i3
+modules-center = temperature cpu memory
+modules-right = date
+module-margin = 0
+
+tray-position = right
+background = #99333333
+padding = 0
+spacing = 0
+
+[bar/bar2]
+monitor = DP-2
+width = 100%
+height = 30
+font-0 = inconsolata:pixelsize=18;1
+
+modules-left= i3
+modules-right = date
+
+background = #99333333
+
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = true
+strip-wsnumbers = true
+pin-workspaces = true
+
+label-mode-foreground = #ffffff
+label-mode-padding = 1
+
+label-unfocused-foreground = #0cffe1
+label-unfocused-padding = 1
+label-visible-foreground = #0cffe1
+label-visible-padding = 1
+label-focused-foreground = #ff217c
+label-focused-padding = 1
+label-urgent-padding = 1
+
+[module/date]
+type = internal/date
+interval = 5
+date = "%Y-%m-%d"
+time = " %H:%M"
+label = %date% %time%
+
+[module/volume]
+type = internal/volume
+
+format-volume = <label-volume> <bar-volume>
+label-volume = ""
+label-volume-foreground = ${root.foreground}
+label-muted = muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = │
+bar-volume-indicator-font = 2
+bar-volume-indicator-foreground = #ff
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground =
+
+[module/memory]
+type = internal/memory
+label = mem %{F#0cffe1}%percentage_used%%
+label-padding = 3
+
+[module/cpu]
+type = internal/cpu
+format = <label>
+label = cpu %{F#0cffe1}%percentage%%
+
+
+[module/temperature]
+type = internal/temperature
+interval = 0.5
+thermal-zone = 0
+warn-temperature = 60
+label = temp %{F#0cffe1}%temperature%
+label-padding = 3

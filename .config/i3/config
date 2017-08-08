@@ -111,19 +111,6 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-bar {
-	position top
-	font pango:Inconsolata 14
-        status_command i3status
-	colors {
-		#statusline #ffd687
-		statusline #eeeeee
-		background #483c6c
-		separator #0cffe1
-		focused_workspace #483c6c #483c6c #ff217c
-		active_workspace #483c6c #483c6c #0cffe1
-		inactive_workspace #483c6c #483c6c #0cffe1
-	}
-}
-
 client.background #483c6c
+
+exec_always --no-startup-id /home/pwagner/.config/polybar/launch.sh
