@@ -20,7 +20,9 @@
 /.config/configstore/
 /.config/dconf/
 /.config/menus/
+/.config/pavucontrol.ini
 /.config/pulse/
+/.config/vlc/
 /.cups/
 /.dbshell
 /.dlv/
