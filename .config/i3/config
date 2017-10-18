@@ -3,6 +3,8 @@ set $mod Mod4
 font pango:Inconsolata 12
 floating_modifier $mod
 
+focus_follows_mouse no
+
 # start a terminal
 bindsym $mod+Return exec termite
 bindsym $mod+n exec termite
@@ -68,6 +70,8 @@ for_window [class="jetbrains-idea"] border none
 # Browser
 assign [class="Chromium"] workspace 3 
 for_window [class="Chromium"] border none
+assign [class="Google-chrome"] workspace 3 
+for_window [class="Google-chrome"] border none
 
 # Terminal
 for_window [class="Termite"] border none
