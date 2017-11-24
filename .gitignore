@@ -15,6 +15,7 @@
 /.babel-cache/
 /.babel.json
 /.bash_history
+/.bash_profile
 /.bash_sessions/
 /.cache/
 /.cassandra/
@@ -26,6 +27,7 @@
 /.config/direnv/
 /.config/gcloud/
 /.config/google-chrome/
+/.config/gtk-2.0/
 /.config/GraphiQL/
 /.config/menus/
 /.config/mimeapps.list
@@ -34,6 +36,7 @@
 /.config/pulse/
 /.config/Trolltech.conf
 /.config/vlc/
+/.credentials/
 /.cups/
 /.dbshell
 /.dlv/
