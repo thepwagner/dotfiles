@@ -1,7 +1,5 @@
 /.CFUserTextEncoding
-/.IntelliJIdea14/
-/.IntelliJIdea15/
-/.IntelliJIdea2017.2/
+/.IntelliJIdea*/
 /.NERDTreeBookmarks
 /.Trash/
 /.android/
@@ -34,6 +32,7 @@
 /.config/MusicBrainz/
 /.config/pavucontrol.ini
 /.config/pulse/
+/.config/spotify/
 /.config/Trolltech.conf
 /.config/vlc/
 /.credentials/
@@ -69,6 +68,7 @@
 /.minikube/
 /.mitmproxy/
 /.mongorc.js
+/.mozilla/
 /.mysql_history
 /.neoman/
 /.node-gyp/
