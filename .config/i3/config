@@ -1,4 +1,3 @@
-
 set $mod Mod4
 font pango:Inconsolata 12
 floating_modifier $mod
@@ -75,6 +74,7 @@ for_window [class="Google-chrome"] border none
 
 # Terminal
 for_window [class="Termite"] border none
+for_window [class="Spotify"] border none
 
 gaps outer 3
 gaps inner 10

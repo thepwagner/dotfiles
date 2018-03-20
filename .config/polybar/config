@@ -89,11 +89,10 @@ type = internal/cpu
 format = <label>
 label = cpu %{F#0cffe1}%percentage%%
 
-
 [module/temperature]
 type = internal/temperature
 interval = 0.5
 thermal-zone = 0
 warn-temperature = 60
-label = temp %{F#0cffe1}%temperature%
+label = temp %{F#0cffe1}%temperature-c%
 label-padding = 3
