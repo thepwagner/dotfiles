@@ -32,6 +32,7 @@
 /.config/MusicBrainz/
 /.config/pavucontrol.ini
 /.config/pulse/
+/.config/QtProject.conf
 /.config/spotify/
 /.config/Trolltech.conf
 /.config/vlc/
@@ -106,10 +107,12 @@
 /.vagrant.d/
 /.vim/.netrwhist
 /.viminfo
+/.visualvm/
 /.yarnrc
 /.yjp
 /.yubioath/
 /.Xauthority
+/.xsession-errors*
 /.zcomp*
 /.zsh-update
 /.zsh_history
