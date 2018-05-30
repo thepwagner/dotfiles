@@ -47,6 +47,7 @@
 /.docker/
 /.dropbox/
 /.elect*/
+/.ecr/
 /.esd_auth
 /.fleetctl/
 /.gem/
