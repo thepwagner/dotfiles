@@ -71,6 +71,7 @@ assign [class="Chromium"] workspace 3 
 for_window [class="Chromium"] border none
 assign [class="Google-chrome"] workspace 3 
 for_window [class="Google-chrome"] border none
+for_window [class="Firefox"] border none
 
 # Terminal
 for_window [class="Termite"] border none
