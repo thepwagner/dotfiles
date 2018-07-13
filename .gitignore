@@ -45,6 +45,7 @@
 /.dbshell
 /.dlv/
 /.docker/
+/.dotfiles/
 /.dropbox/
 /.elect*/
 /.ecr/
@@ -114,6 +115,7 @@
 /.v8*
 /.vagrant.d/
 /.vim/.netrwhist
+/.vim/plugged/
 /.viminfo
 /.visualvm/
 /.wget*
