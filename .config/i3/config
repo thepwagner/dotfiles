@@ -42,8 +42,8 @@ bindsym $mod+h split h
 # split in vertical orientation
 bindsym $mod+v split v
 
-set $monitor_one DP-4
-set $monitor_two DP-2
+set $monitor_one HDMI-0
+set $monitor_two DP-4
 
 workspace 1 output $monitor_one
 workspace 4 output $monitor_two
