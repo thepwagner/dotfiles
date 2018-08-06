@@ -20,6 +20,7 @@
 /.bundle/
 /.cache/
 /.cassandra/
+/.config/.mono/
 /.config/Atom/
 /.config/Clementine/
 /.config/GraphiQL/
@@ -34,6 +35,7 @@
 /.config/gcloud/
 /.config/google-chrome/
 /.config/gtk-2.0/
+/.config/KeePass/
 /.config/menus/
 /.config/mimeapps.list
 /.config/pavucontrol.ini
