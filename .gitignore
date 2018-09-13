@@ -45,6 +45,7 @@
 /.credentials/
 /.cups/
 /.dbshell
+/.dbus/
 /.dlv/
 /.docker/
 /.dotfiles/
@@ -77,6 +78,7 @@
 /.minikube/
 /.mitmproxy/
 /.mongorc.js
+/.mono/
 /.mozilla/
 /.mysql_history
 /.neoman/
@@ -145,8 +147,8 @@
 /bin/
 /git/
 /go/
+/nltk_data/
 /oss/
 /tmp/
 /venv/
-/zemind/
 Google Drive File Stream
