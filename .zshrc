@@ -11,8 +11,6 @@ if ! zgen saved; then
 	zgen oh-my-zsh plugins/docker-compose
 	zgen oh-my-zsh plugins/docker
 	zgen oh-my-zsh plugins/git
-	zgen oh-my-zsh plugins/gradle
-	zgen oh-my-zsh plugins/nmap
 	zgen oh-my-zsh themes/gentoo
 	zgen loadall <<EOPLUGINS
 zsh-users/zsh-syntax-highlighting
