@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-scale '/home/pwagner/.wallpaper/80s-space.jpg' 
+/usr/bin/feh --bg-fill '/home/thepwagner/.wallpaper/80s-space.jpg'

@@ -61,6 +61,7 @@
 /.glide/
 /.gnome/
 /.gnupg*/
+/.GoLand*
 /.gpg*
 /.gradle/
 /.groovy/

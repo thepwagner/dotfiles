@@ -65,6 +65,8 @@ bindsym $mod+0 workspace number 10
 # IDE
 assign [class="jetbrains-idea"] workspace 2 
 for_window [class="jetbrains-idea"] border none
+assign [class="jetbrains-goland"] workspace 2 
+for_window [class="jetbrains-goland"] border none
 
 # Browser
 assign [class="Chromium"] workspace 3 
@@ -118,4 +120,6 @@ bindsym $mod+r mode "resize"
 
 client.background #483c6c
 
+exec_always --no-startup-id /home/thepwagner/.config/polybar/launch.sh
 exec_always --no-startup-id /home/pwagner/.config/polybar/launch.sh
+exec_always --no-startup-id /usr/bin/feh --bg-fill ~/.wallpaper/80s-space.jpg

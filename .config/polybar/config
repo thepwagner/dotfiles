@@ -1,12 +1,12 @@
 [bar/bar1]
-monitor = HDMI-0
+monitor = Virtual1
 width = 100%
 height = 30
 font-0 = Inconsolata:fontformat=truetype:size=16;3
 font-1 = FontAwesome:fontformat=truetype:size=16;0
 
 modules-left= i3
-modules-center = temperature cpu memory
+modules-center = cpu memory
 modules-right = date
 module-margin = 0
 
@@ -14,18 +14,6 @@ tray-position = right
 background = #99333333
 padding = 0
 spacing = 0
-
-[bar/bar2]
-monitor = DP-4
-width = 100%
-height = 30
-font-0 = inconsolata:pixelsize=18;1
-
-modules-left= i3
-modules-right = date
-
-background = #99333333
-
 
 [module/i3]
 type = internal/i3
