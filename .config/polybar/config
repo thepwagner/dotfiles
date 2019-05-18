@@ -1,3 +1,5 @@
+# DB86BA pink
+
 [bar/bar1]
 monitor = Virtual1
 width = 100%
@@ -12,6 +14,7 @@ module-margin = 0
 
 tray-position = right
 background = #99333333
+foreground = #d8d8d8
 padding = 0
 spacing = 0
 
@@ -26,11 +29,11 @@ pin-workspaces = true
 label-mode-foreground = #ffffff
 label-mode-padding = 1
 
-label-unfocused-foreground = #0cffe1
+label-unfocused-foreground = #75DBE1
 label-unfocused-padding = 1
-label-visible-foreground = #0cffe1
+label-visible-foreground = #75DBE1
 label-visible-padding = 1
-label-focused-foreground = #ff217c
+label-focused-foreground = #DB86BA
 label-focused-padding = 1
 label-urgent-padding = 1
 
@@ -69,18 +72,18 @@ bar-volume-empty-foreground =
 
 [module/memory]
 type = internal/memory
-label = mem %{F#0cffe1}%percentage_used%%
+label = mem %{F#75DBE1}%percentage_used%%
 label-padding = 3
 
 [module/cpu]
 type = internal/cpu
 format = <label>
-label = cpu %{F#0cffe1}%percentage%%
+label = cpu %{F#75DBE1}%percentage%%
 
 [module/temperature]
 type = internal/temperature
 interval = 0.5
 thermal-zone = 0
 warn-temperature = 60
-label = temp %{F#0cffe1}%temperature-c%
+label = temp %{F#75DBE1}%temperature-c%
 label-padding = 3

@@ -8,6 +8,7 @@ focus_follows_mouse no
 bindsym $mod+Return exec termite
 bindsym $mod+n exec termite
 bindsym $mod+space exec "rofi -combi-modi window,drun -show combi -modi combi -eh 2"
+bindsym Mod1+space exec "rofi -combi-modi window,drun -show combi -modi combi -eh 2"
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -36,11 +37,12 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-# split in horizontal orientation
 bindsym $mod+h split h
-
-# split in vertical orientation
 bindsym $mod+v split v
+
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout default
 
 set $monitor_one HDMI-0
 set $monitor_two DP-4
@@ -122,4 +124,4 @@ client.background #483c6c
 
 exec_always --no-startup-id /home/thepwagner/.config/polybar/launch.sh
 exec_always --no-startup-id /home/pwagner/.config/polybar/launch.sh
-exec_always --no-startup-id /usr/bin/feh --bg-fill ~/.wallpaper/80s-space.jpg
+exec_always --no-startup-id /usr/bin/feh --bg-fill ~/.wallpaper/wallhaven-674454.jpg
