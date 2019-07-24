@@ -11,6 +11,7 @@
 /.aurora/
 /.autoenv_authorized
 /.aws/
+/.azure/
 /.babel-cache/
 /.babel.json
 /.bash_history
@@ -86,6 +87,7 @@
 /.mozilla/
 /.mysql_history
 /.neoman/
+/.ngrok2/
 /.node-gyp/
 /.node_repl_history
 /.npm/
@@ -158,4 +160,4 @@
 /oss/
 /tmp/
 /venv/
-Google Drive File Stream
+/Virtual Machines.localized/
