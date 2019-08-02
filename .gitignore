@@ -88,6 +88,7 @@
 /.mono/
 /.mozilla/
 /.mysql_history
+/.my.cnf
 /.neoman/
 /.node-gyp/
 /.node_repl_history
