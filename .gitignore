@@ -90,6 +90,7 @@
 /.mysql_history
 /.my.cnf
 /.neoman/
+/.ngrok2/
 /.node-gyp/
 /.node_repl_history
 /.npm/
@@ -164,3 +165,4 @@
 /venv/
 Google Drive File Stream
 /java_error*
+/Virtual Machines.localized/

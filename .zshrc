@@ -48,3 +48,5 @@ export GOPATH=~/go
 
 [[ -f ${HOME}/.zprofile ]] && source ${HOME}/.zprofile
 
+bindkey "[D" backward-word
+bindkey "[C" forward-word
