@@ -5,8 +5,8 @@ floating_modifier $mod
 focus_follows_mouse no
 
 # start a terminal
-bindsym $mod+Return exec termite
-bindsym $mod+n exec termite
+bindsym $mod+Return exec kitty
+bindsym $mod+n exec kitty
 bindsym $mod+space exec "rofi -combi-modi window,drun -show combi -modi combi -eh 2"
 bindsym Mod1+space exec "rofi -combi-modi window,drun -show combi -modi combi -eh 2"
 
@@ -81,6 +81,7 @@ for_window [class="Firefox"] border none
 
 # Terminal
 for_window [class="Termite"] border none
+for_window [class="kitty"] border none
 for_window [class="Spotify"] border none
 
 gaps outer 3
