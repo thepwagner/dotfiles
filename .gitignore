@@ -37,6 +37,7 @@
 /.config/dconf/
 /.config/direnv/
 /.config/gcloud/
+/.config/go/
 /.config/GitHub*
 /.config/google-chrome/
 /.config/gtk-2.0/
