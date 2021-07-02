@@ -1,4 +1,5 @@
 export PATH="/usr/local/bin:/usr/local/sbin:${PATH}:${HOME}/bin:${HOME}/go/bin"
+export DOCKER_SCAN_SUGGEST=false
 
 SAVEHIST=10000
 
