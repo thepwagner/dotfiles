@@ -39,10 +39,12 @@
 /.config/dconf/
 /.config/direnv/
 /.config/gcloud/
+/.config/go/
 /.config/GitHub*
 /.config/google-chrome/
 /.config/gtk-2.0/
 /.config/iterm2/
+/.config/JetBrains/
 /.config/KeePass/
 /.config/menus/
 /.config/mimeapps.list
