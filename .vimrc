@@ -20,6 +20,7 @@ Plug 'scrooloose/syntastic'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'fatih/vim-go'
 Plug 'vim-ruby/vim-ruby'
+Plug 'plasticboy/vim-markdown'
 
 call plug#end()
 

@@ -15,3 +15,7 @@
 	insteadOf = https://github.com/
 [init]
 	defaultBranch = main
+[pull]
+	rebase = false
+[alias]
+	st = status

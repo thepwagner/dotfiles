@@ -8,6 +8,7 @@
 /.archivist/
 /.archey3.cfg
 /.arcrc
+/.argocd/
 /.atom/
 /.aurora/
 /.autoenv_authorized
@@ -43,9 +44,11 @@
 /.config/GitHub*
 /.config/google-chrome/
 /.config/gtk-2.0/
+/.config/helm/
 /.config/iterm2/
 /.config/JetBrains/
 /.config/KeePass/
+/.config/kustomize/
 /.config/menus/
 /.config/mimeapps.list
 /.config/pavucontrol.ini
@@ -153,6 +156,7 @@
 /.zsh-update
 /.zsh_history
 /Applications/
+/cloud/
 /Desktop/
 /Documents/
 /Downloads/
