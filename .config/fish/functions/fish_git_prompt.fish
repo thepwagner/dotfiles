@@ -101,11 +101,6 @@ function fish_git_prompt --description 'Prompt function for Git'
                 set untrackedfiles (__fish_git_prompt_untracked)
             end
         end
-
-        if set -q __fish_git_prompt_showupstream
-            or set -q __fish_git_prompt_show_informative_status
-            set p (__fish_git_prompt_show_upstream)
-        end
     end
 
     set -l branch_color $___fish_git_prompt_color_branch
@@ -147,9 +142,6 @@ function fish_git_prompt --description 'Prompt function for Git'
     end
     if test -n "$r"
         set r "$___fish_git_prompt_color_merging$r$___fish_git_prompt_color_merging_done"
-    end
-    if test -n "$p"
-        set p "$___fish_git_prompt_color_upstream$p$___fish_git_prompt_color_upstream_done"
     end
 
     # Formatting

@@ -1,4 +1,3 @@
-# Defined in /usr/share/fish/functions/fish_git_prompt.fish @ line 589
 function __fish_git_prompt_operation_branch_bare --description 'fish_git_prompt helper, returns the current Git operation and branch'
     # This function is passed the full repo_info array
     set -l git_dir $argv[1]
@@ -13,7 +12,6 @@ function __fish_git_prompt_operation_branch_bare --description 'fish_git_prompt 
     set -l bare
     set -l step
     set -l total
-    set -l os
 
     if test -d $git_dir/rebase-merge
         set branch (cat $git_dir/rebase-merge/head-name 2>/dev/null)
@@ -52,8 +50,7 @@ function __fish_git_prompt_operation_branch_bare --description 'fish_git_prompt 
     end
 
     if test -z "$branch"
-        set branch (command git symbolic-ref HEAD 2>/dev/null; set os $status)
-        if test $os -ne 0
+        if not set branch (command git symbolic-ref HEAD 2>/dev/null)
             set detached yes
             set branch (switch "$__fish_git_prompt_describe_style"
 						case contains
@@ -64,8 +61,8 @@ function __fish_git_prompt_operation_branch_bare --description 'fish_git_prompt 
 							command git describe HEAD
 						case default '*'
 							command git describe --tags --exact-match HEAD
-						end 2>/dev/null; set os $status)
-            if test $os -ne 0
+						end 2>/dev/null)
+            if test $status -ne 0
                 # Shorten the sha ourselves to 8 characters - this should be good for most repositories,
                 # and even for large ones it should be good for most commits
                 if set -q sha
@@ -78,8 +75,8 @@ function __fish_git_prompt_operation_branch_bare --description 'fish_git_prompt 
         end
     end
 
-    if test "true" = $inside_gitdir
-        if test "true" = $bare_repo
+    if test true = $inside_gitdir
+        if test true = $bare_repo
             set bare "BARE:"
         else
             # Let user know they're inside the git dir of a non-bare repo
