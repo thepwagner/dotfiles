@@ -49,6 +49,7 @@
 /.config/JetBrains/
 /.config/KeePass/
 /.config/kustomize/
+/.config/libvirt/
 /.config/menus/
 /.config/mimeapps.list
 /.config/pavucontrol.ini
