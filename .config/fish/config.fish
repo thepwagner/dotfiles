@@ -21,4 +21,8 @@ if status is-interactive
   set -g __fish_git_prompt_color_invalidstate red
   set -g __fish_git_prompt_color_untrackedfiles $fish_color_normal
   set -g __fish_git_prompt_color_cleanstate green
+
+  if type -q direnv
+    direnv hook fish | source
+  end
 end
