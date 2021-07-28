@@ -25,4 +25,8 @@ if status is-interactive
   if type -q direnv
     direnv hook fish | source
   end
+  if [ -S ~/.gnupg/S.gpg-agent.ssh ]
+    set -e SSH_AUTH_SOCK
+    set -U -x  SSH_AUTH_SOCK ~/.gnupg/S.gpg-agent.ssh
+  end
 end
