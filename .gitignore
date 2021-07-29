@@ -29,7 +29,7 @@
 /.config/Atom/
 /.config/Clementine/
 /.config/Code/
-/.config/dlv/
+/.config/d?v/
 /.config/GraphiQL/
 /.config/MusicBrainz/
 /.config/QtProject.conf
@@ -61,7 +61,7 @@
 /.cups/
 /.dbshell
 /.dbus/
-/.dlv/
+/.d?v/
 /.docker/
 /.dotfiles/
 /.dropbox/
