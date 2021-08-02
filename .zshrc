@@ -2,34 +2,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:${PATH}:${HOME}/bin:${HOME}/go/bin"
 export DOCKER_SCAN_SUGGEST=false
 
 SAVEHIST=10000
-
-ZGEN_RESET_ON_CHANGE=(${HOME}/.zshrc)
-source "${HOME}/.zgen/zgen.zsh"
-if ! zgen saved; then
-	echo "Creating a zgen save..."
-	zgen oh-my-zsh
-	zgen oh-my-zsh plugins/brew
-	zgen oh-my-zsh plugins/docker-compose
-	zgen oh-my-zsh plugins/docker
-	zgen oh-my-zsh plugins/git
-	zgen oh-my-zsh themes/gentoo
-	zgen loadall <<EOPLUGINS
-zsh-users/zsh-syntax-highlighting
-zsh-users/zsh-completions src
-EOPLUGINS
-	zgen save
-fi
-
-
-# Custom prompt:
-function collapse_pwd {
-	echo $(pwd | sed -e "s,^$HOME,~,")
-}
-if [ "${USER}" = "root" ]; then
-	PROMPT='%{$fg[red]%}%n@%m %{$fg_bold[blue]%}$(collapse_pwd)%{$reset_color%}$(git_prompt_info) %{$fg_bold[blue]%}# %{$reset_color%}'
-else
-	PROMPT='%{$fg[green]%}%n@%m %{$fg_bold[blue]%}$(collapse_pwd)%{$reset_color%}$(git_prompt_info) %{$fg_bold[blue]%}\$ %{$reset_color%}'
-fi
+PROMPT='%n@%m %~ $ '
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[magenta]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
