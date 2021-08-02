@@ -9,8 +9,6 @@
 	default = simple
 [github]
 	user = thepwagner
-#[credential]
-#	helper = osxkeychain
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
 [init]
