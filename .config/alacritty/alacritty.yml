@@ -34,6 +34,9 @@ cursor:
     blinking: off
     unfocused_hollow: true
 
+selection:
+  save_to_clipboard: true
+
 colors:
   normal:
     black: "#333232"
