@@ -5,17 +5,18 @@
 
 [core]
 	excludesfile = ~/.gitignore_global
-[push]
-	default = simple
-[github]
-	user = thepwagner
-#[credential]
-#	helper = osxkeychain
-[url "ssh://git@github.com/"]
-	insteadOf = https://github.com/
-[init]
-	defaultBranch = main
-[pull]
-	rebase = false
+
 [alias]
 	st = status
+
+[github]
+	user = thepwagner
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+
+[init]
+	defaultBranch = main
+[push]
+	default = simple
+[pull]
+	rebase = false
