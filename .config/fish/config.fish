@@ -22,6 +22,13 @@ if status is-interactive
   set -g __fish_git_prompt_color_untrackedfiles $fish_color_normal
   set -g __fish_git_prompt_color_cleanstate green
 
+  set -g fish_greeting ""
+  set -g fish_prompt_pwd_dir_length 0
+  set -g fish_color_cwd blue
+  set -g fish_color_host green
+  set -g fish_color_user green
+  fish_add_path /usr/local/bin
+
   if type -q direnv
     direnv hook fish | source
   end
