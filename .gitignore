@@ -17,5 +17,7 @@
 !/.config/user-dirs.*
 
 !/.tmux.conf
+!/.vim/
+/.vim/.netrwhist
 !/.vimrc
 !/.zshrc
