@@ -10,6 +10,9 @@
 !/.config/containers
 /.config/fish/fish_variables
 !/.config/fish
+!/.config/gh
+/.config/gh/*
+!/.config/gh/config.yml
 !/.config/htop
 !/.config/i3
 !/.config/polybar
