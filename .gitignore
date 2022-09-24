@@ -20,6 +20,7 @@
 !/.config/user-dirs.*
 
 !/.tmux.conf
+!/.wget-hsts
 !/.vim/
 /.vim/.netrwhist
 !/.vimrc
