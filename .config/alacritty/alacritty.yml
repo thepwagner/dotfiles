@@ -15,7 +15,6 @@ font:
     family: "Iosevka Term"
     style: Italic
   size: 14
-  use_thin_strokes: false
 
 env:
   TERM: xterm-256color
