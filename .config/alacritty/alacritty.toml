@@ -1,0 +1,70 @@
+[colors.bright]
+black = "#676767"
+blue = "#6871ff"
+cyan = "#5ffdff"
+green = "#5ff967"
+magenta = "#ff76ff"
+red = "#ff6d67"
+white = "#fffefe"
+yellow = "#fefb67"
+
+[colors.normal]
+black = "#333232"
+blue = "#6b86fe"
+cyan = "#00c5c7"
+green = "#00c200"
+magenta = "#c930c7"
+red = "#fe2500"
+white = "#c7c7c7"
+yellow = "#c7c400"
+
+[cursor.style]
+blinking = "off"
+shape = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 14
+
+[font.bold]
+family = "Iosevka Term"
+style = "Bold"
+
+[font.italic]
+family = "Iosevka Term"
+style = "Italic"
+
+[font.normal]
+family = "Iosevka Term"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+action = "CreateNewWindow"
+key = "N"
+mods = "Command"
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+program = "/usr/local/bin/fish"
+
+[window]
+decorations = "none"
+opacity = 0.9
+
+[window.padding]
+x = 5
+y = 5
