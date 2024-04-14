@@ -13,7 +13,6 @@
 !/.config/gh
 /.config/gh/*
 !/.config/gh/config.yml
-!/.config/htop
 !/.config/i3
 !/.config/polybar
 !/.config/rofi
