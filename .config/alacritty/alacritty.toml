@@ -58,7 +58,7 @@ mods = "Command"
 [selection]
 save_to_clipboard = true
 
-[shell]
+[terminal.shell]
 program = "/usr/local/bin/fish"
 
 [window]
@@ -68,3 +68,5 @@ opacity = 0.9
 [window.padding]
 x = 5
 y = 5
+
+[terminal]
