@@ -16,6 +16,8 @@
 !/.config/gh/config.yml
 !/.config/i3
 !/.config/polybar
+!/.config/sway
+!/.config/waybar
 !/.config/rofi
 !/.config/user-dirs.*
 
