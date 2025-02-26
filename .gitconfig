@@ -20,3 +20,5 @@
 	default = simple
 [pull]
 	rebase = false
+[tag]
+        sort = version:refname
