@@ -34,7 +34,9 @@ format = "[$symbol($version )]($style)"
 style = 'cyan'
 
 [hostname]
-ssh_symbol = " "
+ssh_symbol = "@"
+style = 'yellow'
+format = '[$hostname]($style)'
 
 [memory_usage]
 symbol = "󰍛 "
@@ -57,3 +59,8 @@ symbol = " "
 
 [rust]
 symbol = "󱘗 "
+
+[username]
+style_user = 'green'
+style_root = 'red'
+format = '[$user@]($style)'
