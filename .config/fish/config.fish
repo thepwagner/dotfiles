@@ -32,6 +32,9 @@ if status is-interactive
   if type -q direnv
     direnv hook fish | source
   end
+  if type -q starship
+    starship init fish | source
+  end
   if [ -S ~/.gnupg/S.gpg-agent.ssh ]
     set -e SSH_AUTH_SOCK
     set -x SSH_AUTH_SOCK ~/.gnupg/S.gpg-agent.ssh

@@ -1,5 +1,5 @@
 theme = catppuccin-mocha
-font-family = "Iosevka Fixed"
+font-family = "FiraCode Nerd Font"
 
 window-decoration = true
 background-opacity = 0.9
@@ -8,6 +8,6 @@ macos-titlebar-style = "hidden"
 window-padding-x = 10
 window-padding-y = 10
 
-command = /usr/local/bin/fish
+command = fish
 shell-integration = fish
 term = xterm-256color

@@ -22,3 +22,5 @@
 	rebase = false
 [tag]
         sort = version:refname
+[diff]
+	algorithm = histogram
