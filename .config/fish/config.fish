@@ -39,6 +39,8 @@ if status is-interactive
     set -e SSH_AUTH_SOCK
     set -x SSH_AUTH_SOCK ~/.gnupg/S.gpg-agent.ssh
   end
+  set -e EDITOR
+  set -x EDITOR vim
 
   if test -f ~/.config/fish/config_local.fish
     source ~/.config/fish/config_local.fish
