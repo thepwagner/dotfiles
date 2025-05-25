@@ -42,6 +42,10 @@ if status is-interactive
   set -e EDITOR
   set -x EDITOR vim
 
+  if test -d ~/git/thepwagner
+    set CDPATH ".:~/git/thepwagner"
+  end
+
   if test -f ~/.config/fish/config_local.fish
     source ~/.config/fish/config_local.fish
   end
